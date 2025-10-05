@@ -44,9 +44,9 @@ export function Hero() {
 
       <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-end pb-0">
         {/* Left: Logo */}
-        <div className="flex flex-col items-start md:items-start max-md:items-center gap-2 sm:gap-4 z-10 -mt-12 sm:-mt-20 md:-mt-32 lg:-mt-48 xl:-mt-64 -ml-4 sm:-ml-8 md:-ml-16 lg:-ml-24 xl:-ml-32">
+        <div className="flex flex-col items-start md:items-start max-md:items-center gap-2 sm:gap-4 z-10 -mt-48 sm:-mt-56 md:-mt-68 lg:-mt-[120px] xl:-mt-[140px] -ml-16 sm:-ml-20 md:-ml-28 lg:-ml-36 xl:-ml-44">
           <Image
-            src="/palu-nft-logo.png"
+            src="/PALU_NFT.png"
             alt="PALU NFT wordmark"
             aria-label="PALU NFT"
             width={640}
