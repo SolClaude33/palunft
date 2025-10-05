@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="relative h-screen min-h-[1250px] px-6 py-12 md:py-20 -mt-24 md:-mt-32 pt-2 md:pt-4 overflow-visible">
+    <section className="relative min-h-screen lg:min-h-[1250px] px-4 sm:px-6 py-8 sm:py-12 md:py-20 -mt-16 sm:-mt-20 md:-mt-24 lg:-mt-32 pt-2 md:pt-4 overflow-visible">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <Image src="/section-bg.png" alt="" fill className="object-cover" />
@@ -42,9 +42,9 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-end pb-0">
+      <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-end pb-0">
         {/* Left: Logo */}
-        <div className="flex flex-col items-start md:items-start max-md:items-center gap-4 z-10 -mt-104 md:-mt-112 -ml-40 md:-ml-44">
+        <div className="flex flex-col items-start md:items-start max-md:items-center gap-4 z-10 -mt-20 sm:-mt-32 md:-mt-48 lg:-mt-64 xl:-mt-80 -ml-8 sm:-ml-16 md:-ml-24 lg:-ml-32 xl:-ml-40">
           <Image
             src="/palu-nft-logo.png"
             alt="PALU NFT wordmark"
@@ -52,7 +52,7 @@ export function Hero() {
             width={640}
             height={400}
             loading="lazy"
-            className="w-full max-w-[clamp(264px,38.4vw,624px)] md:max-w-[52.8vw] lg:max-w-[clamp(264px,38.4vw,624px)] max-md:max-w-[81.6vw] h-auto object-contain hover:scale-105 transition-all duration-500 ease-in-out"
+            className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[624px] h-auto object-contain hover:scale-105 transition-all duration-500 ease-in-out"
             style={{
               filter: "drop-shadow(0 8px 24px rgba(0,0,0,0.18)) drop-shadow(0 0 20px rgba(255,255,255,0.1)) drop-shadow(0 0 40px rgba(59,130,246,0.2))",
               animation: "float 6s ease-in-out infinite",
@@ -61,9 +61,9 @@ export function Hero() {
         </div>
 
         {/* Right: Character scene */}
-        <div className="relative h-[600px] md:h-[700px]">
+        <div className="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px]">
           {/* Grey-haired man - left */}
-          <div className="absolute left-[5%] -translate-x-1/2 -bottom-[25%] w-[63%] md:w-[63%] z-20">
+          <div className="absolute left-[5%] -translate-x-1/2 -bottom-[25%] w-[50%] sm:w-[55%] md:w-[63%] z-20">
             <Image
               src="/cz-character.png"
               alt="Grey-haired man with glasses"
@@ -78,7 +78,7 @@ export function Hero() {
           </div>
 
           {/* Blond boy - right */}
-          <div className="absolute left-[120%] -translate-x-1/2 -bottom-[35%] w-[67.5%] md:w-[67.5%] z-15">
+          <div className="absolute left-[120%] -translate-x-1/2 -bottom-[35%] w-[60%] sm:w-[65%] md:w-[67.5%] z-15">
             <Image 
               src="/goldieee31.png" 
               alt="Blond boy" 
@@ -93,7 +93,7 @@ export function Hero() {
           </div>
 
           {/* Dog mascot - center */}
-          <div className="absolute left-[62.5%] -translate-x-1/2 -bottom-[25%] w-[87%] md:w-[87%] z-25">
+          <div className="absolute left-[62.5%] -translate-x-1/2 -bottom-[25%] w-[70%] sm:w-[80%] md:w-[87%] z-25">
             <Image 
               src="/dog-mascot.png" 
               alt="Dog mascot" 
