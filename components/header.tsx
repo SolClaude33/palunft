@@ -11,7 +11,9 @@ export function Header() {
           TWITTER
         </a>
         <a
-          href="#"
+          href="https://www.launchmynft.io/collections/0x82B821d15A82960Bd4cC475fE5e383e22dBBbA1B/mf0YPE7kxj2TvDnIWH6p"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-white font-extrabold text-sm sm:text-base tracking-wide [text-shadow:0_3px_12px_rgba(0,0,0,0.35)] hover:scale-110 hover:text-purple-300 hover:[text-shadow:0_4px_16px_rgba(147,51,234,0.6)] transition-all duration-300 ease-in-out cursor-pointer"
         >
           COLLECTION

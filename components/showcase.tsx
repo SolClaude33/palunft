@@ -93,9 +93,14 @@ export function Showcase() {
             </svg>
           </a>
 
-          <button className="px-4 sm:px-6 py-2 sm:py-2.5 rounded-full bg-[#e6dcff]/80 backdrop-blur-md border border-white/40 text-[#2a2340] font-extrabold text-xs sm:text-sm hover:bg-[#e6dcff]/90 transition-colors">
+          <a
+            href="https://www.launchmynft.io/collections/0x82B821d15A82960Bd4cC475fE5e383e22dBBbA1B/mf0YPE7kxj2TvDnIWH6p"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 sm:px-6 py-2 sm:py-2.5 rounded-full bg-[#e6dcff]/80 backdrop-blur-md border border-white/40 text-[#2a2340] font-extrabold text-xs sm:text-sm hover:bg-[#e6dcff]/90 transition-colors inline-block"
+          >
             COLLECTION
-          </button>
+          </a>
         </div>
 
         {/* Copyright */}
