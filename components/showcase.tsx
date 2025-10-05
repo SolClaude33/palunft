@@ -103,9 +103,6 @@ export function Showcase() {
           <p className="text-[#64748b] text-xs sm:text-sm font-medium">
             © 2025 PaluVerse. All rights reserved.
           </p>
-          <p className="text-[#94a3b8] text-xs mt-2">
-            Easy to Play, Hard to Stop. Endless Fun!
-          </p>
         </div>
       </div>
     </section>

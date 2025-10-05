@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'PaluVerse - Easy to Play, Hard to Stop. Endless Fun!',
+  title: 'PaluVerse - NFT Gaming Experience',
   description: 'Discover the ultimate NFT gaming experience with PaluVerse. Play, collect, and trade unique characters in an immersive blockchain universe. Join our community today!',
   keywords: 'NFT, blockchain, gaming, PaluVerse, collectibles, characters, crypto, digital assets',
   icons: {
