@@ -9,9 +9,12 @@ export const metadata: Metadata = {
   description: 'Discover the ultimate NFT gaming experience with PaluVerse. Play, collect, and trade unique characters in an immersive blockchain universe. Join our community today!',
   keywords: 'NFT, blockchain, gaming, PaluVerse, collectibles, characters, crypto, digital assets',
   icons: {
-    icon: '/f2fRFObO_400x400',
-    shortcut: '/f2fRFObO_400x400',
-    apple: '/f2fRFObO_400x400',
+    icon: [
+      { url: '/f2fRFObO_400x400.jpg', sizes: '32x32', type: 'image/jpeg' },
+      { url: '/f2fRFObO_400x400.jpg', sizes: '16x16', type: 'image/jpeg' },
+    ],
+    shortcut: '/f2fRFObO_400x400.jpg',
+    apple: '/f2fRFObO_400x400.jpg',
   },
   viewport: {
     width: 'device-width',
