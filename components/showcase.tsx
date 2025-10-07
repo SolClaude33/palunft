@@ -83,7 +83,7 @@ export function Showcase() {
           </button>
 
           <a
-            href="https://x.com/Paluverse"
+            href="https://x.com/PaluNFTS"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-white/70 backdrop-blur-md border border-white/40 flex items-center justify-center hover:bg-white/80 transition-colors"
